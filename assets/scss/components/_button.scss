@@ -1,0 +1,10 @@
+.btn-google {
+  width: calc(100% - 30px);
+  display: flex;
+  column-gap: 20px;
+  margin: 0 15px;
+  padding: 5px;
+  font-family: $metropolis;
+  color: #5d5a6f;
+  align-items: center;
+}

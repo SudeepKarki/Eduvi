@@ -1,0 +1,25 @@
+.tab-nav {
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+  margin-bottom: 45px;
+  @include media-breakpoint-down(md) {
+    overflow-x: scroll;
+  }
+  @include media-breakpoint-up(md) {
+    flex-wrap: wrap;
+  }
+  &__link {
+    font-family: $metropolisMedium;
+    color: var(--accent-blue);
+    line-height: 20px;
+    white-space: nowrap;
+    border-radius: 10px;
+    &.active {
+      padding: 20px 30px;
+      background-color: var(--accent-orange);
+      color: #fff;
+      box-shadow: 0 15px 50px 0 rgba(255, 102, 82, 0.2);
+    }
+  }
+}

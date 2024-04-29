@@ -1,0 +1,16 @@
+.section-heading {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  @include media-breakpoint-up(lg) {
+    width: 840px;
+  }
+  &__title {
+    @extend %type-h2;
+    margin-bottom: 20px;
+  }
+  &__text {
+    margin-bottom: 40px;
+  }
+}

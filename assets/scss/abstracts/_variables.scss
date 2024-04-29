@@ -1,0 +1,75 @@
+:root {
+  --accent-blue: #0a033c;
+  --accent-orange: #ff6652;
+}
+
+$font-family-sans-serif: $metropolis;
+
+//  Color
+$primary: #9c4df4;
+$secondary: #dedde4;
+$body-bg: #f7f5fa;
+$body-color: #5d5a6f;
+
+$line-height-base: 1.875;
+$link-decoration: none;
+
+// Headings
+$h1-font-size: 4.0625rem !default;
+$h2-font-size: 2.8125rem !default;
+$h3-font-size: 2.5rem !default;
+$h4-font-size: 1.5625rem !default;
+$h5-font-size: 1.375rem !default;
+$headings-color: var(--accent-blue);
+
+//  Offcanvas
+$offcanvas-padding-y: 1rem !default;
+$offcanvas-padding-x: 2rem !default;
+$offcanvas-backdrop-bg: var(--accent-blue);
+
+//  Modal
+$modal-content-border-radius: 15px;
+$modal-content-border-width: 0;
+$modal-xl: 1060px !default;
+$modal-inner-padding: 80px !default;
+$modal-backdrop-bg: var(--accent-blue);
+
+// Carousel
+$carousel-indicator-width: 10px !default;
+$carousel-indicator-height: 10px !default;
+
+//  Input
+$input-padding-y: 10px !default;
+$input-padding-x: 10px !default;
+$input-bg: transparent !default;
+$input-color: #5d5a6f !default;
+$input-border-color: #dedde4 !default;
+$input-border-radius: 10px !default;
+$input-placeholder-color: #5d5a6f !default;
+
+// Label
+$form-label-margin-bottom: 5px !default;
+$form-label-color: var(--accent-blue) !default;
+
+//  Button
+$btn-font-family: $metropolisMedium !default;
+$btn-line-height: 20px !default;
+$btn-padding-y: 15px !default;
+$btn-padding-x: 30px !default;
+$btn-border-radius: 10px !default;
+// small
+$btn-padding-y-sm: 12px !default;
+$btn-padding-x-sm: 32px !default;
+$btn-border-radius-sm: 5px !default;
+$btn-font-size-lg: 16px !default;
+// large
+$btn-padding-y-lg: 20px !default;
+$btn-padding-x-lg: 30px !default;
+$btn-border-radius-lg: 10px !default;
+$btn-font-size-sm: 16px !default;
+
+// Breadcrumb
+$breadcrumb-divider: quote("|");
+$breadcrumb-margin-bottom: 0 !default;
+$breadcrumb-divider-color: rgba(10, 3, 60, 0.4) !default;
+$breadcrumb-active-color: $primary !default;

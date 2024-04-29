@@ -1,0 +1,127 @@
+.login {
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  grid-template-columns: repeat(1, 1fr);
+  @include media-breakpoint-up(lg) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  @include media-breakpoint-up(xl) {
+    gap: 160px;
+  }
+  &__left {
+    position: relative;
+    &:before {
+      @include media-breakpoint-up(lg) {
+        content: "";
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        left: calc(100% + 20px);
+        background: linear-gradient(
+          to bottom,
+          rgba(10, 3, 60, 0) 0%,
+          rgba(10, 3, 60, 1) 50%,
+          rgba(10, 3, 60, 0) 100%
+        );
+      }
+      @include media-breakpoint-up(xl) {
+        left: calc(100% + 80px);
+      }
+    }
+  }
+  &__right {
+  }
+  &__form {
+    .form-control {
+      margin-bottom: 15px;
+      padding-left: 50px;
+      background-repeat: no-repeat;
+      background-position: 18px center;
+      &-email {
+        background-image: url("../images/icons/mail.svg");
+      }
+      &-password {
+        background-image: url("../images/icons/lock.svg");
+      }
+    }
+    .form-label {
+      font-family: $metropolisMedium;
+      line-height: 30px;
+    }
+    .view-pass {
+      position: absolute;
+      right: 18px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .btn-submit {
+      margin-top: 10px;
+    }
+  }
+  &__footer {
+    margin-top: 20px;
+    font-family: $metropolisMedium;
+    color: #5d5a6f;
+    a {
+      color: #5d5a6f;
+    }
+    .form-check {
+      display: flex;
+      align-items: center;
+      column-gap: 12px;
+      margin: 0;
+      &-input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        margin-top: 0;
+        border-radius: 2px;
+        box-shadow: inset 0 0 0px 2px #9c4df4;
+        background-color: transparent;
+        border: none;
+        &:checked[type="checkbox"] {
+          background-image: url("../images/icons/check.svg");
+        }
+      }
+    }
+  }
+  .carousel {
+    &__text {
+      @extend %type-h3;
+      margin: 15px 0 30px;
+      width: 355px;
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+      }
+    }
+  }
+}
+.text-separator {
+  margin: 20px 0;
+  text-align: center;
+  span {
+    position: relative;
+    padding: 10px;
+    &:before {
+      content: "";
+      width: 20px;
+      height: 1px;
+      background-color: #5d5a6f;
+      position: absolute;
+      left: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &:after {
+      content: "";
+      width: 20px;
+      height: 1px;
+      background-color: #5d5a6f;
+      position: absolute;
+      right: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

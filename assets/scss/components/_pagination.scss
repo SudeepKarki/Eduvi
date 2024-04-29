@@ -1,0 +1,39 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  &__link {
+    display: flex;
+    padding: 10px;
+    background-color: #f2e5ff;
+    border-radius: 6px;
+    svg {
+      path {
+        fill: $primary;
+      }
+    }
+    &:hover {
+      background-color: $primary;
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+  &__info {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    color: var(--accent-blue);
+    font-family: $metropolisMedium;
+    line-height: 1;
+  }
+  &__active {
+    padding: 13px 16px;
+    background-color: #fff;
+    color: #3e4756;
+    font-size: 1.125rem;
+    border-radius: 8px;
+  }
+}

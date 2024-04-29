@@ -1,0 +1,23 @@
+.banner {
+  margin-top: 44px;
+  padding-bottom: 140px;
+  background: url("../images/banner-bg.png") center/cover no-repeat;
+  &__slogan {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-family: $metropolisMedium;
+    border-radius: 10px;
+    background-color: #fff;
+    color: var(--accent-orange);
+  }
+  &__title {
+    @extend %type-h1;
+    margin-bottom: 30px;
+  }
+  &__text {
+    margin-bottom: 40px;
+  }
+}

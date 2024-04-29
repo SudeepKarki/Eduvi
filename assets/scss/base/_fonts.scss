@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("../fonts/metropolis/regular/Metropolis-Regular.eot");
+  src: url("../fonts/metropolis/regular/Metropolis-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/metropolis/regular/Metropolis-Regular.woff2") format("woff2"),
+    url("../fonts/metropolis/regular/Metropolis-Regular.woff") format("woff"),
+    url("../fonts/metropolis/regular/Metropolis-Regular.ttf") format("truetype"),
+    url("../fonts/metropolis/regular/Metropolis-Regular.svg#Metropolis-Regular")
+      format("svg");
+}
+@font-face {
+  font-family: "Metropolis-Medium";
+  src: url("../fonts/metropolis/medium/Metropolis-Medium.eot");
+  src: url("../fonts/metropolis/medium/Metropolis-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/metropolis/medium/Metropolis-Medium.woff2") format("woff2"),
+    url("../fonts/metropolis/medium/Metropolis-Medium.woff") format("woff"),
+    url("../fonts/metropolis/medium/Metropolis-Medium.ttf") format("truetype"),
+    url("../fonts/metropolis/medium/Metropolis-Medium.svg#Metropolis-Medium")
+      format("svg");
+}
+@font-face {
+  font-family: "Metropolis-SemiBold";
+  src: url("../fonts/metropolis/semibold/Metropolis-SemiBold.eot");
+  src: url("../fonts/metropolis/semibold/Metropolis-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/metropolis/semibold/Metropolis-SemiBold.woff2")
+      format("woff2"),
+    url("../fonts/metropolis/semibold/Metropolis-SemiBold.woff") format("woff"),
+    url("../fonts/metropolis/semibold/Metropolis-SemiBold.ttf")
+      format("truetype"),
+    url("../fonts/metropolis/semibold/Metropolis-SemiBold.svg#Metropolis-SemiBold")
+      format("svg");
+}
+@font-face {
+  font-family: "Metropolis-Bold";
+  src: url("../fonts/metropolis/bold/Metropolis-Bold.eot");
+  src: url("../fonts/metropolis/bold/Metropolis-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/metropolis/bold/Metropolis-Bold.woff2") format("woff2"),
+    url("../fonts/metropolis/bold/Metropolis-Bold.woff") format("woff"),
+    url("../fonts/metropolis/bold/Metropolis-Bold.ttf") format("truetype"),
+    url("../fonts/metropolis/bold/Metropolis-Bold.svg#Metropolis-Bold")
+      format("svg");
+}
+$metropolis: "Metropolis";
+$metropolisMedium: "Metropolis-Medium";
+$metropolisSemiBold: "Metropolis-SemiBold";
+$metropolisBold: "Metropolis-Bold";

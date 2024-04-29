@@ -1,0 +1,10 @@
+//  Container Width Override
+html,
+body {
+  overflow-x: hidden;
+}
+@media (min-width: 1290px) and (max-width: 1399px) {
+  .container {
+    max-width: 1280px;
+  }
+}

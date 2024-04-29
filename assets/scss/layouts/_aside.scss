@@ -1,0 +1,31 @@
+.aside {
+  display: flex;
+  flex: 1 0 35%;
+  gap: 40px;
+  flex-direction: column;
+  @include media-breakpoint-up(xl) {
+    flex: 1 0 400px;
+  }
+  @include media-breakpoint-down(md) {
+    margin: 50px 0;
+    order: 1;
+  }
+}
+.aside-item {
+  row-gap: 20px;
+  &__title {
+    margin-bottom: 0;
+    font-family: $metropolisSemiBold;
+    font-size: 1.875rem;
+    color: var(--accent-blue);
+    line-height: 1;
+  }
+  &__list {
+    row-gap: 15px;
+  }
+  &__link {
+    font-family: $metropolisMedium;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+  }
+}

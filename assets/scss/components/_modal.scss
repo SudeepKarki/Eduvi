@@ -1,0 +1,14 @@
+.modal-dialog {
+  .modal-body {
+    padding: 20px;
+    @include media-breakpoint-up(md) {
+      padding: 30px;
+    }
+    @include media-breakpoint-up(lg) {
+      padding: 40px;
+    }
+    @include media-breakpoint-up(xl) {
+      padding: 80px;
+    }
+  }
+}
